@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EF14402125601C0024DD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF143F2125601C0024DD03 /* AppDelegate.swift */; };
+		04EF14422125601C0024DD03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF14412125601C0024DD03 /* ViewController.swift */; };
+		04EF14452125601C0024DD03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF14432125601C0024DD03 /* Main.storyboard */; };
+		04EF14472125601C0024DD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF14462125601C0024DD03 /* Assets.xcassets */; };
+		04EF144A2125601C0024DD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF14482125601C0024DD03 /* LaunchScreen.storyboard */; };
+		04EF14552125601C0024DD03 /* Cryptocurrency_Price_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF14542125601C0024DD03 /* Cryptocurrency_Price_TrackerTests.swift */; };
+		04EF14602125601C0024DD03 /* Cryptocurrency_Price_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF145F2125601C0024DD03 /* Cryptocurrency_Price_TrackerUITests.swift */; };
+		04EF147021256A990024DD03 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF146F21256A990024DD03 /* cell.swift */; };
+		04EF14722125707E0024DD03 /* currencytype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF14712125707E0024DD03 /* currencytype.swift */; };
+		04EF1474212579FA0024DD03 /* bitcoin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04EF1473212579FA0024DD03 /* bitcoin.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EF14512125601C0024DD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF14342125601C0024DD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF143B2125601C0024DD03;
+			remoteInfo = "Cryptocurrency Price Tracker";
+		};
+		04EF145C2125601C0024DD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF14342125601C0024DD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF143B2125601C0024DD03;
+			remoteInfo = "Cryptocurrency Price Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EF143C2125601C0024DD03 /* Cryptocurrency Price Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cryptocurrency Price Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF143F2125601C0024DD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EF14412125601C0024DD03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04EF14442125601C0024DD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EF14462125601C0024DD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EF14492125601C0024DD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EF144B2125601C0024DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF14502125601C0024DD03 /* Cryptocurrency Price TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryptocurrency Price TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF14542125601C0024DD03 /* Cryptocurrency_Price_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency_Price_TrackerTests.swift; sourceTree = "<group>"; };
+		04EF14562125601C0024DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF145B2125601C0024DD03 /* Cryptocurrency Price TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryptocurrency Price TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF145F2125601C0024DD03 /* Cryptocurrency_Price_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency_Price_TrackerUITests.swift; sourceTree = "<group>"; };
+		04EF14612125601C0024DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF146F21256A990024DD03 /* cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		04EF14712125707E0024DD03 /* currencytype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = currencytype.swift; sourceTree = "<group>"; };
+		04EF1473212579FA0024DD03 /* bitcoin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bitcoin.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EF14392125601C0024DD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF144D2125601C0024DD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF14582125601C0024DD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF14332125601C0024DD03 = {
+			isa = PBXGroup;
+			children = (
+				04EF143E2125601C0024DD03 /* Cryptocurrency Price Tracker */,
+				04EF14532125601C0024DD03 /* Cryptocurrency Price TrackerTests */,
+				04EF145E2125601C0024DD03 /* Cryptocurrency Price TrackerUITests */,
+				04EF143D2125601C0024DD03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EF143D2125601C0024DD03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EF143C2125601C0024DD03 /* Cryptocurrency Price Tracker.app */,
+				04EF14502125601C0024DD03 /* Cryptocurrency Price TrackerTests.xctest */,
+				04EF145B2125601C0024DD03 /* Cryptocurrency Price TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EF143E2125601C0024DD03 /* Cryptocurrency Price Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				04EF143F2125601C0024DD03 /* AppDelegate.swift */,
+				04EF14412125601C0024DD03 /* ViewController.swift */,
+				04EF14712125707E0024DD03 /* currencytype.swift */,
+				04EF14432125601C0024DD03 /* Main.storyboard */,
+				04EF146F21256A990024DD03 /* cell.swift */,
+				04EF1473212579FA0024DD03 /* bitcoin.jpeg */,
+				04EF14462125601C0024DD03 /* Assets.xcassets */,
+				04EF14482125601C0024DD03 /* LaunchScreen.storyboard */,
+				04EF144B2125601C0024DD03 /* Info.plist */,
+			);
+			path = "Cryptocurrency Price Tracker";
+			sourceTree = "<group>";
+		};
+		04EF14532125601C0024DD03 /* Cryptocurrency Price TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF14542125601C0024DD03 /* Cryptocurrency_Price_TrackerTests.swift */,
+				04EF14562125601C0024DD03 /* Info.plist */,
+			);
+			path = "Cryptocurrency Price TrackerTests";
+			sourceTree = "<group>";
+		};
+		04EF145E2125601C0024DD03 /* Cryptocurrency Price TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF145F2125601C0024DD03 /* Cryptocurrency_Price_TrackerUITests.swift */,
+				04EF14612125601C0024DD03 /* Info.plist */,
+			);
+			path = "Cryptocurrency Price TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EF143B2125601C0024DD03 /* Cryptocurrency Price Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF14642125601C0024DD03 /* Build configuration list for PBXNativeTarget "Cryptocurrency Price Tracker" */;
+			buildPhases = (
+				04EF14382125601C0024DD03 /* Sources */,
+				04EF14392125601C0024DD03 /* Frameworks */,
+				04EF143A2125601C0024DD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cryptocurrency Price Tracker";
+			productName = "Cryptocurrency Price Tracker";
+			productReference = 04EF143C2125601C0024DD03 /* Cryptocurrency Price Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EF144F2125601C0024DD03 /* Cryptocurrency Price TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF14672125601C0024DD03 /* Build configuration list for PBXNativeTarget "Cryptocurrency Price TrackerTests" */;
+			buildPhases = (
+				04EF144C2125601C0024DD03 /* Sources */,
+				04EF144D2125601C0024DD03 /* Frameworks */,
+				04EF144E2125601C0024DD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF14522125601C0024DD03 /* PBXTargetDependency */,
+			);
+			name = "Cryptocurrency Price TrackerTests";
+			productName = "Cryptocurrency Price TrackerTests";
+			productReference = 04EF14502125601C0024DD03 /* Cryptocurrency Price TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EF145A2125601C0024DD03 /* Cryptocurrency Price TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF146A2125601C0024DD03 /* Build configuration list for PBXNativeTarget "Cryptocurrency Price TrackerUITests" */;
+			buildPhases = (
+				04EF14572125601C0024DD03 /* Sources */,
+				04EF14582125601C0024DD03 /* Frameworks */,
+				04EF14592125601C0024DD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF145D2125601C0024DD03 /* PBXTargetDependency */,
+			);
+			name = "Cryptocurrency Price TrackerUITests";
+			productName = "Cryptocurrency Price TrackerUITests";
+			productReference = 04EF145B2125601C0024DD03 /* Cryptocurrency Price TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EF14342125601C0024DD03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ohmpatel;
+				TargetAttributes = {
+					04EF143B2125601C0024DD03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9QEYTM9DYM;
+						ProvisioningStyle = Automatic;
+					};
+					04EF144F2125601C0024DD03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9QEYTM9DYM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04EF143B2125601C0024DD03;
+					};
+					04EF145A2125601C0024DD03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9QEYTM9DYM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04EF143B2125601C0024DD03;
+					};
+				};
+			};
+			buildConfigurationList = 04EF14372125601C0024DD03 /* Build configuration list for PBXProject "Cryptocurrency Price Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EF14332125601C0024DD03;
+			productRefGroup = 04EF143D2125601C0024DD03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EF143B2125601C0024DD03 /* Cryptocurrency Price Tracker */,
+				04EF144F2125601C0024DD03 /* Cryptocurrency Price TrackerTests */,
+				04EF145A2125601C0024DD03 /* Cryptocurrency Price TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EF143A2125601C0024DD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF1474212579FA0024DD03 /* bitcoin.jpeg in Resources */,
+				04EF144A2125601C0024DD03 /* LaunchScreen.storyboard in Resources */,
+				04EF14472125601C0024DD03 /* Assets.xcassets in Resources */,
+				04EF14452125601C0024DD03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF144E2125601C0024DD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF14592125601C0024DD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EF14382125601C0024DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF14422125601C0024DD03 /* ViewController.swift in Sources */,
+				04EF14402125601C0024DD03 /* AppDelegate.swift in Sources */,
+				04EF14722125707E0024DD03 /* currencytype.swift in Sources */,
+				04EF147021256A990024DD03 /* cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF144C2125601C0024DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF14552125601C0024DD03 /* Cryptocurrency_Price_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF14572125601C0024DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF14602125601C0024DD03 /* Cryptocurrency_Price_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EF14522125601C0024DD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF143B2125601C0024DD03 /* Cryptocurrency Price Tracker */;
+			targetProxy = 04EF14512125601C0024DD03 /* PBXContainerItemProxy */;
+		};
+		04EF145D2125601C0024DD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF143B2125601C0024DD03 /* Cryptocurrency Price Tracker */;
+			targetProxy = 04EF145C2125601C0024DD03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EF14432125601C0024DD03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF14442125601C0024DD03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EF14482125601C0024DD03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF14492125601C0024DD03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EF14622125601C0024DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EF14632125601C0024DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EF14652125601C0024DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QEYTM9DYM;
+				INFOPLIST_FILE = "Cryptocurrency Price Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohm.Cryptocurrency-Price-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04EF14662125601C0024DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QEYTM9DYM;
+				INFOPLIST_FILE = "Cryptocurrency Price Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohm.Cryptocurrency-Price-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04EF14682125601C0024DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9QEYTM9DYM;
+				INFOPLIST_FILE = "Cryptocurrency Price TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohm.Cryptocurrency-Price-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryptocurrency Price Tracker.app/Cryptocurrency Price Tracker";
+			};
+			name = Debug;
+		};
+		04EF14692125601C0024DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9QEYTM9DYM;
+				INFOPLIST_FILE = "Cryptocurrency Price TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohm.Cryptocurrency-Price-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryptocurrency Price Tracker.app/Cryptocurrency Price Tracker";
+			};
+			name = Release;
+		};
+		04EF146B2125601C0024DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9QEYTM9DYM;
+				INFOPLIST_FILE = "Cryptocurrency Price TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohm.Cryptocurrency-Price-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cryptocurrency Price Tracker";
+			};
+			name = Debug;
+		};
+		04EF146C2125601C0024DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9QEYTM9DYM;
+				INFOPLIST_FILE = "Cryptocurrency Price TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohm.Cryptocurrency-Price-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cryptocurrency Price Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EF14372125601C0024DD03 /* Build configuration list for PBXProject "Cryptocurrency Price Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF14622125601C0024DD03 /* Debug */,
+				04EF14632125601C0024DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF14642125601C0024DD03 /* Build configuration list for PBXNativeTarget "Cryptocurrency Price Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF14652125601C0024DD03 /* Debug */,
+				04EF14662125601C0024DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EF14672125601C0024DD03 /* Build configuration list for PBXNativeTarget "Cryptocurrency Price TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF14682125601C0024DD03 /* Debug */,
+				04EF14692125601C0024DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EF146A2125601C0024DD03 /* Build configuration list for PBXNativeTarget "Cryptocurrency Price TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF146B2125601C0024DD03 /* Debug */,
+				04EF146C2125601C0024DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EF14342125601C0024DD03 /* Project object */;
+}
